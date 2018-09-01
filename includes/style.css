@@ -1,0 +1,53 @@
+*{margin:0;padding:0;}
+#wrapper 
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#head{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background: #8eecc0;
+}
+
+#head h3{
+    position: relative;
+    text-align: center;
+    top:28px;
+    color: azure;
+    font-size: 30px;
+}
+
+#head h6{
+    position: relative;
+    top:36px;
+    left: 5px;
+    color: azure;
+    font-size: 15px;
+}
+.done{
+    text-decoration: line-through;
+}
+
+#newTodo{
+    float: left;
+    top:3px;
+    right: 450px;
+    height: 30px;
+}
+
+form{
+    float: left;
+    top: 9px;
+    left:320px;
+}
+
+form input{
+    margin-right:5px;
+}
+
+.table{
+    background: #68ca9c;
+}
